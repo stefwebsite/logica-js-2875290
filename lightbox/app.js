@@ -15,12 +15,12 @@ function lightbox (e){
     console.log(e.target.src)
     let currentImg = e.target.src;
     flotante.style.top = '0vh';
-    flotante.style.transitionDuration = '.5s';
+    flotante.style.transitionDuration = '.3s';
     imgPrincipal.setAttribute('src', currentImg)
 }
 function cerrar (){
     flotante.style.top ='-100vh';
-    flotante.style.transitionDuration ='.5s';
+    flotante.style.transitionDuration ='.3s';
 }
 
 //Eventos
